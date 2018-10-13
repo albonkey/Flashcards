@@ -13,7 +13,7 @@
 `TODO://` Flashcard app, which has a question on one side, and an answer on the other side\
 \
 ### App Walk-though\
-<img src="http://g.recordit.co/s1r47mBDkG.gif" width=200><br>\
+<img src="http://g.recordit.co/EAJ1sPp8Q6.gif" width=200><br>\
 \
 ## Required\
 - [x] Create New Project in Xcode\
