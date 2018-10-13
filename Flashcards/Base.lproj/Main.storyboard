@@ -44,12 +44,40 @@
                                     <outletCollection property="gestureRecognizers" destination="YDm-8R-8CG" appends="YES" id="F7y-oX-oHe"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRo-zl-kH9">
+                                <rect key="frame" x="37" y="583" width="300" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sao Paulo"/>
+                                <connections>
+                                    <action selector="didTapOptionThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="euo-D4-oHO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBd-1z-ZVH">
+                                <rect key="frame" x="37" y="459" width="300" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rio De Janeiro"/>
+                                <connections>
+                                    <action selector="didTapOptionOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4u-0x-P8W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="949-hb-g02">
+                                <rect key="frame" x="37" y="521" width="300" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Brasilia"/>
+                                <connections>
+                                    <action selector="didTapOptionTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b7s-DR-eGa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="G8q-kS-4g1" id="xdx-ZL-j2L"/>
+                        <outlet property="btnOptionOne" destination="KBd-1z-ZVH" id="QaA-qy-tC6"/>
+                        <outlet property="btnOptionThree" destination="PRo-zl-kH9" id="MiP-pU-7s3"/>
+                        <outlet property="btnOptionTwo" destination="949-hb-g02" id="I2w-ds-90a"/>
+                        <outlet property="card" destination="nGc-ge-u3U" id="1wc-IY-fog"/>
                         <outlet property="frontLabel" destination="rcg-C5-hrV" id="PV2-4c-sUE"/>
                     </connections>
                 </viewController>
