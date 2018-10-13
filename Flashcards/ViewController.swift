@@ -20,6 +20,12 @@ class ViewController: UIViewController {
 
     
     @IBAction func didTapOnFlashcard(_ sender: Any) {
+        if frontLabel.isHidden {
+            frontLabel.isHidden = false
+        }
+        else {
+            frontLabel.isHidden = true
+        }
     }
     
 }
