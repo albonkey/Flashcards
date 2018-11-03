@@ -19,7 +19,7 @@ An App which have a flashcard with a question on the front and the answer on the
 - [x] User can edit existing flashcard
 - [x] User can add multiple choice answers in the creation screen
 ### App Description
-`TODO://` An App which have a flashcard with a question on the front and the answer on the back, with 3 different alternatives.
+An App which have a flashcard with a question on the front and the answer on the back, with 3 different alternatives.
 
 ### App Walk-though
 
